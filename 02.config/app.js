@@ -1,2 +1,2 @@
-document.write("Welcome to my home ^^");
+document.write("That's working!!!");
 console.log("App loaded...");
