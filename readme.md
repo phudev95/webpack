@@ -1,9 +1,14 @@
-### Install package global
+# Install package global
 ```
 npm install -g webpack
 npm install -g webpack-server-dev
 ```
-
+## Use command-line scripts
+```
+webpack a.js b-bundle.js
+webpack-server-dev
+webpack-server-dev --inline
+```
 
 ##Templates
 1. Make my changes
