@@ -2,6 +2,10 @@ let login = (username, password) => {
 	if(username !== 'admin'  || password !== 'radical') {
 		console.log('incorrect login');
 	}
+	else {
+		console.log('Login successfully!');
+	}
 };
 
-login('admin', 'idunno');
+export const test_const = 'abcdef';
+export {login};

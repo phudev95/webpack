@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
     // Set path folder of JS
     context: path.resolve('js'),
-    entry: ['./utils.js', './app.js'],
+    entry: ['./utils.js', './app.es6'],
 
     output : {
         path: path.resolve('build/js/'),

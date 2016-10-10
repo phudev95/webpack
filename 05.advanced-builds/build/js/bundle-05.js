@@ -60,13 +60,17 @@
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(3);
+	"use strict";
+
+	var _login = __webpack_require__(3);
+
+	console.log(_login.login); //require('./login');
+
 
 	var content = document.getElementById("content");
 	content.innerHTML = "<h1>App is here!!!</h1>";
 
 	console.log('App loaded');
-
 
 /***/ },
 /* 3 */
@@ -74,13 +78,16 @@
 
 	'use strict';
 
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
 	var login = function login(username, password) {
 		if (username !== 'admin' || password !== 'radical') {
 			console.log('incorrect login');
 		}
 	};
 
-	login('admin', 'idunno');
+	exports.login = login;
 
 /***/ }
 /******/ ]);
