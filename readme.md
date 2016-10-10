@@ -6,8 +6,9 @@ npm install -g webpack-server-dev
 ## Use command-line scripts
 ```
 webpack a.js b-bundle.js
-webpack-server-dev
-webpack-server-dev --inline
+webpack-server-dev (Auto reload on browser)
+webpack-server-dev --inline (Run background on CMD)
+webpack-server-dev -d -p (-d: Add source map; -p: Minify files)
 ```
 
 ## Resources
