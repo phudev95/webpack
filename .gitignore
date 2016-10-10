@@ -7,4 +7,5 @@
 *.iml
 out
 gen
-/04.loaders/node_modules/
+node_modules
+**/node_modules
