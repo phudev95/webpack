@@ -9,6 +9,7 @@ webpack a.js b-bundle.js
 webpack-server-dev (Auto reload on browser)
 webpack-server-dev --inline (Run background on CMD)
 webpack-server-dev -d -p (-d: Add source map; -p: Minify files)
+webpack --config webpack.production.config.js -p (For module 15)
 ```
 ### Before use each modules in projects, you should run 2 command-line below:
 ```
