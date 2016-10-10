@@ -1,9 +1,13 @@
 //require('./login');
-import {login, test_const} from './login';
+//import login from './login';
+import * as loginLib from './login';
 console.warn('================= Debug Modules');
-login('admin', '545454');
-login('admin', 'radical');
-console.log("test_const: %s", test_const);
+//login('admin', '545454');
+//login('admin', 'radical');
+//console.log("test_const: %s", test_const);
+loginLib.login('admin', '545454');
+loginLib.login('admin', 'radical');
+console.log("test_const: %s", loginLib.test_const);
 console.warn('\\\\\============ Debug Modules');
 
 var content = document.getElementById("content");

@@ -10,6 +10,9 @@ webpack-server-dev
 webpack-server-dev --inline
 ```
 
+## Resources
+- [ES6 Modules](http://www.2ality.com/2014/09/es6-modules-final.html)
+
 ##Templates
 1. Make my changes
   1. Fix bug
