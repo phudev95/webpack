@@ -13,6 +13,7 @@ app.use(logger('dev'));
 app.use('/', routes);
 
 // Only load this middleware in dev mode (important).
+// Add bundle.js file with path: http://localhost:8000/build/bundle.js
 if (app.get('env') === 'development') {
     var webpackMiddleware = require("webpack-dev-middleware");
     var webpack = require('webpack');
