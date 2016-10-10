@@ -1,7 +1,7 @@
 //require('./login');
-//import login from './login';
 import * as loginLib from './login';
 console.warn('================= Debug Modules');
+console.log(loginLib);
 //login('admin', '545454');
 //login('admin', 'radical');
 //console.log("test_const: %s", test_const);
