@@ -10,6 +10,11 @@ webpack-server-dev (Auto reload on browser)
 webpack-server-dev --inline (Run background on CMD)
 webpack-server-dev -d -p (-d: Add source map; -p: Minify files)
 ```
+### Before use each modules in projects, you should run 2 command-line below:
+```
+npm install
+npm start
+```
 
 ## Resources
 - [ES6 Modules](http://www.2ality.com/2014/09/es6-modules-final.html)
